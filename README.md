@@ -7,11 +7,8 @@ Multiclass Classifier – Recomendações de ações de operação
 Tags:
 #statistics #python #jupyternotebook # supervisedlearning #multiclass-classifier #AWS #sagemaker
 
-Briefing:
-Esse é um caso bastante específico da agricultura. Quando chove, algumas fazendas ficam impossibilitadas de receber operações mecanizadas, além de oferecem riscos aos funcionários e a lucratividade do negócio. Por isso, baseado em algumas variáveis como umidade, chuva de dias anteriores, probabilidade de chuvas para o dia atual e seguinte, declividade do terreno e tipo de operação, foi treinado um algoritmo que possibilita 4 recomendações para essas situações. Esse projeto foi realizado com produtos AWS, mais precisamente o Sagemaker, que viabiliza um notebook jupyter onde pode-se usar a linguagem python para programação.
-Como não posso expor detalhes que identifiquem o cliente, seguem outras coisas que posso mostrar.
+Briefing: This is a very specific case of agriculture. When it rains, some farms are unable to receive mechanized operations, in addition to posing risks to employees and the profitability of the business. Therefore, based on some variables such as humidity, rain from previous days, probability of rain for the current day and the following day, terrain slope and type of operation, an algorithm was trained that allows 4 recommendations for these situations. This project was carried out with AWS products, more precisely the Sagemaker, which enables a jupyter notebook where you can use the python language for programming. As I cannot expose details that identify the customer, here are other things I can show.
 
-Codes:
-Código para treinamento do algoritmo do tipo multiclass_classifier em instância ml.m4.xlarge, com número de classes para treinamento = 4 (quatro rótulos).
+Codes: Code for training the multiclass_classifier type algorithm in instance ml.m4.xlarge, with number of training classes = 4 (four labels).
 
-Observação: algumas partes do código precisam ser retiradas para não identificar o cliente. :(
+Note: Some parts of the code need to be removed so as not to identify the customer. :(
